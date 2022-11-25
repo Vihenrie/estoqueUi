@@ -11,9 +11,6 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
 import { CoreModule } from './core/core.module';
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent
