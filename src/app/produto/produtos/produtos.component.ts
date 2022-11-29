@@ -9,14 +9,14 @@ import { produtos } from 'src/app/core/model';
 export class ProdutosComponent implements OnInit {
 
   produto: produtos[] = [
-    {id: 1, nameProduto: 'Padaria'},
-    {id: 2, nameProduto: 'Alimentos (cereais e grãos)'},
-    {id: 3, nameProduto: 'Congelados e frios'},
-    {id: 4, nameProduto: 'Hortifruti'},
-    {id: 5, nameProduto: 'Produtos de limpeza'},
-    {id: 6, nameProduto: 'Higiene pessoal'},
-    {id: 7, nameProduto: 'Bebidas'},
-    {id: 8, nameProduto: 'Papelaria'}
+    {id: 1, nameProduto: 'Arroz'},
+    {id: 2, nameProduto: 'Bolachas e biscoitos'},
+    {id: 3, nameProduto: 'Feijão'},
+    {id: 4, nameProduto: 'Maionese'},
+    {id: 5, nameProduto: 'Óleo'},
+    {id: 6, nameProduto: 'Hambúrguer'},
+    {id: 7, nameProduto: 'Pizza'},
+    {id: 8, nameProduto: 'Polpas de frutas congeladas'}
   ];
 
   displayedColumns = ['id', 'nameProduto']

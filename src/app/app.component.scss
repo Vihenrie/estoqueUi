@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 .example-spacer {
   flex: 1 1 auto;
 }
@@ -6,4 +8,20 @@
   height: 100%;
   background: rgb(69,0,48);
   background: linear-gradient(90deg, rgba(69,0,48,1) 0%, rgba(214,3,167,1) 100%);
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+    size: 700;
+}
+button{
+  padding-right: 10vh;
+  span{
+    font-family: 'Roboto', sans-serif;
+    size: 300;
+  }
+}
+.button{
+  color:#fff;
+  background: rgba(194, 24, 91);
+
 }
